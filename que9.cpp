@@ -11,6 +11,12 @@ int main(){
     {
         cout<<"VOWEL";
     }
-    else if(letter>=0 )
+    else if(letter>='0' && letter<='9'){
+        cout<<"NUMBER";
+    }
+    else{
+        cout<<"CONSONANT";
+    }
+    return 0;
 
 }
